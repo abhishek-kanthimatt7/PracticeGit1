@@ -1,0 +1,24 @@
+
+{
+  "postcalldata":{
+           
+              "firstname" : "Jim",
+              "lastname" : "Brown",
+              "totalprice" : 111,
+              "depositpaid" : true,
+              "bookingdates" : {
+              "checkin" : "2018-01-01",
+              "checkout" : "2019-01-01"
+    },
+              "additionalneeds" : "Breakfast"
+
+  },
+
+"putcalldata":{
+  "firstname": "Nick",
+  "lastname": "Walter",
+  "totalprice": 605,
+  "depositpaid": false,
+  "bookingdates": { "checkin": "2015-06-06", "checkout": "2023-07-21" }
+}
+}
