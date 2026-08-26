@@ -19,6 +19,7 @@ test("EHAPILoginTest",async({request})=>{
 
     const jsonLoginResponse = await loginResponse.json();
     expect(jsonLoginResponse.user.email).toMatch("CarlJohnson_7@yahoo.com");
-    console.log(jsonLoginResponse.token); 
+    console.log(jsonLoginResponse.token);
+    console.log("Hello"); 
 
 })
